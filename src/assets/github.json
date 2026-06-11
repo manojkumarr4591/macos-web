@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "image": "https://images.unsplash.com/photo-1529101091764-c3526daf38fe?q=80&w=1333&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "Animated Card",
+        "description": "Animated glowing card UI using HTML and CSS with rotating gradient border effects and hover animations.",
+        "tags": ["HTML", "CSS", "JavaScript"],
+        "repolink": "https://github.com/manojkumarr4591/animated-card-ui.git",
+        "demolink": "https://manojkumarr4591.github.io/animated-card-ui/"
+    },
+    {
+  "id": 2,
+  "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+  "title": "Portfolio Website",
+  "description": "Personal portfolio website built with React and SCSS featuring smooth animations and responsive design.",
+  "tags": ["React", "SCSS", "JavaScript"],
+  "repolink": "https://github.com/manojkumarr4591/portfolio-website.git",
+  "demolink": "https://manojkumarr4591.github.io/portfolio-website/"
+},
+{
+  "id": 3,
+  "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3",
+  "title": "Weather App",
+  "description": "A weather forecasting application that fetches real-time weather data using a public API.",
+  "tags": ["React", "API", "CSS"],
+  "repolink": "https://github.com/manojkumarr4591/weather-app.git",
+  "demolink": "https://manojkumarr4591.github.io/weather-app/"
+},
+{
+  "id": 4,
+  "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+  "title": "Task Manager",
+  "description": "A productivity application for managing daily tasks with local storage support.",
+  "tags": ["React", "LocalStorage", "SCSS"],
+  "repolink": "https://github.com/manojkumarr4591/task-manager.git",
+  "demolink": "https://manojkumarr4591.github.io/task-manager/"
+},
+{
+  "id": 5,
+  "image": "https://images.unsplash.com/photo-1518770660439-4636190af475",
+  "title": "MacOS Clone",
+  "description": "A MacOS-inspired desktop experience built with React featuring draggable windows and a dynamic dock.",
+  "tags": ["React", "SCSS", "UI/UX"],
+  "repolink": "https://github.com/manojkumarr4591/macos-web.git",
+  "demolink": "https://macos-web.vercel.app/"
+},
+{
+  "id": 6,
+  "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
+  "title": "Focus Hunt",
+  "description": "A cognitive game designed to improve concentration, attention span, and focus through interactive challenges.",
+  "tags": ["React", "Game", "JavaScript"],
+  "repolink": "https://github.com/manojkumarr4591/focus-hunt.git",
+  "demolink": "https://focus-hunt.vercel.app/"
+}
+]

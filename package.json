@@ -10,8 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^19.1.1",
+    "react": "^19.2.7",
     "react-dom": "^19.1.1",
+    "react-rnd": "^10.4.13",
+    "rnd": "^1.0.10",
     "sass": "^1.100.0"
   },
   "devDependencies": {
