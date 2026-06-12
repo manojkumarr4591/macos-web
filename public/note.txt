@@ -1,0 +1,133 @@
+/**
+ * @file: manoj.config.ts
+ * @author: Manoj Kumar
+ * @role: Frontend Developer & AI Enthusiast
+ * @summary: MCA student with interests in Frontend Development, AI and Cloud Computing.
+ */
+
+export const PROFILE = {
+  name: "Manoj Kumar",
+  role: "Frontend Developer",
+  location: "Ghaziabad, Uttar Pradesh, India",
+  phone: "+91-7347613484",
+  email: "manojji987313@gmail.com",
+
+  social: {
+    github: "github.com/manojkumarr4591",
+    linkedin: "linkedin.com/in/manoj-kumar-3380b3372",
+  },
+};
+
+// ======================================================
+// 1. TECH STACK
+// ======================================================
+
+export const TECH_STACK = {
+  frontend: [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "React.js",
+    "GSAP",
+  ],
+
+  programming: [
+    "JavaScript",
+    "Python",
+    "C",
+  ],
+
+  cloudAndAI: [
+    "AWS Cloud Foundations",
+    "Artificial Intelligence",
+    "Machine Learning",
+  ],
+
+  tools: [
+    "Git",
+    "GitHub",
+    "VS Code",
+    "ChatGPT",
+    "GitHub Copilot",
+    "Google Gemini",
+  ],
+};
+
+// ======================================================
+// 2. EDUCATION TIMELINE
+// ======================================================
+
+export const EDUCATION = [
+  {
+    degree: "MCA",
+    institute: "Christ University Delhi NCR",
+    duration: "2024 - 2026",
+    status: "Pursuing",
+  },
+
+  {
+    degree: "BCA",
+    institute: "HLM Group of Institute",
+    duration: "2021 - 2024",
+    status: "Completed",
+  },
+];
+
+// ======================================================
+// 3. RESEARCH PUBLICATION
+// ======================================================
+
+export const RESEARCH = {
+  title:
+    "Explainable AI for Heart Disease Prediction: A Clinical Transparency Route Experiment",
+
+  conference: "ICDISS 2025",
+
+  publisher: "IEEE Xplore",
+
+  indexing: "Scopus Indexed",
+
+  doi: "10.1109/ICDISS68238.2025.11320656",
+
+  status: "Published",
+};
+
+// ======================================================
+// 4. PROJECTS
+// ======================================================
+
+export const PROJECTS = [
+  "RentX - Car & Bike Rental Platform",
+  "Productivity Dashboard",
+  "Reels UI Clone",
+  "Fire Fighting Robot Car",
+];
+
+// ======================================================
+// 5. CERTIFICATIONS
+// ======================================================
+
+export const CERTIFICATIONS = [
+  "AWS Academy Cloud Foundations",
+  "Intel Unnati Artificial Intelligence",
+];
+
+// ======================================================
+// 6. AI TOOLS
+// ======================================================
+
+export const AI_TOOLS = [
+  "ChatGPT",
+  "GitHub Copilot",
+  "Google Gemini",
+];
+
+// ======================================================
+// 7. SYSTEM STATS
+// ======================================================
+
+export const STATS = {
+  projects: 4,
+  certifications: 2,
+  publications: 1,
+};
