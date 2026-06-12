@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav>
       <div className="left">
         <div className="apple-icon">
-          <img src="/nav-icon/apple.svg" alt="" />
+          <img src={`${import.meta.env.BASE_URL}nav-icon/apple.svg`} alt="" />
         </div>
 
         <div className="nav-item">
@@ -26,7 +26,7 @@ const Navbar = () => {
 
       <div className="right">
         <div className="nav-icon">
-            <img src="/nav-icon/wifi.svg" alt="" />
+            <img src={`${import.meta.env.BASE_URL}nav-icon/wifi.svg`} alt="" />
         </div>
         <div className="nav-item">
             <DateTime />

@@ -7,19 +7,19 @@ const Dock = ({ setWindowsState }) => {
     <footer className="dock">
       <div
         onClick={() => {setWindowsState((state) => ({...state,github: true,}));}}
-        className="icon github"><img src="/dock-icon/github.svg" alt="" />{" "}
+        className="icon github"><img src={`${import.meta.env.BASE_URL}dock-icon/github.svg`} alt="" />{" "}
         </div>
       <div
         onClick={() => setWindowsState((state) => ({ ...state, note: true }))}
         className="icon note"
       >
-        <img src="/dock-icon/note.svg" alt="" />
+        <img src={`${import.meta.env.BASE_URL}dock-icon/note.svg`} alt="" />
       </div>
       <div
         onClick={() => setWindowsState((state) => ({ ...state, resume: true }))}
         className="icon pdf"
       >
-        <img src="/dock-icon/pdf.svg" alt="" />
+        <img src={`${import.meta.env.BASE_URL}dock-icon/pdf.svg`} alt="" />
       </div>
       <div
         onClick={() =>
@@ -29,7 +29,7 @@ const Dock = ({ setWindowsState }) => {
         }
         className="icon  calender"
       >
-        <img src="/dock-icon/calendar.svg" alt="" />
+        <img src={`${import.meta.env.BASE_URL}dock-icon/calendar.svg`} alt="" />
       </div>
       <div
         onClick={() =>
@@ -37,7 +37,7 @@ const Dock = ({ setWindowsState }) => {
         }
         className="icon spotify"
       >
-        <img src="/dock-icon/spotify.svg" alt="" />
+        <img src={`${import.meta.env.BASE_URL}dock-icon/spotify.svg`} alt="" />
       </div>
       <div
         onClick={()=>{
@@ -46,7 +46,7 @@ const Dock = ({ setWindowsState }) => {
 
         className="icon mail"
       >
-        <img src="/dock-icon/mail.svg" alt="" />
+        <img src={`${import.meta.env.BASE_URL}dock-icon/mail.svg`} alt="" />
       </div>
       <div
         onClick={()=>{
@@ -55,13 +55,13 @@ const Dock = ({ setWindowsState }) => {
         
         className="icon link"
       >
-        <img src="/dock-icon/link.svg" alt="" />
+        <img src={`${import.meta.env.BASE_URL}dock-icon/link.svg`} alt="" />
       </div>
       <div
         onClick={() => setWindowsState((state) => ({ ...state, cli: true }))}
         className="icon cli"
       >
-        <img src="/dock-icon/cli.svg" alt="" />
+        <img src={`${import.meta.env.BASE_URL}dock-icon/cli.svg`} alt="" />
       </div>
     </footer>
   );
